@@ -9,7 +9,6 @@
 	<description>guli-generator基于guli-generator改造的适合本电商项目的代码生成器，
 		主要使用SpringSecurity控制权限</description>
 
-
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -111,6 +110,7 @@
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -122,7 +122,7 @@
 		</plugins>
 	</build>
 
-	<repositories>
+	<!--<repositories>
 		<repository>
 			<id>public</id>
 			<name>aliyun nexus</name>
@@ -145,5 +145,5 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-
+-->
 </project>
